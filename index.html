@@ -1,64 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
+    <title>My Awesome Website</title>
     <style>
-            body {
+        body {
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
         }
-
         h1 {
             color: #1432DF;
             text-align: center;
-        }
-
-        h2 {
-            color: #6BDF14;
-            text-align: center;
             padding: 20px;
         }
-
+        h2 {
+            color: #6BDF14;
+      		text-align: center;
+      		padding: 20px;
+      	}
         p {
-            font-family: Copperplate;
             text-align: center;
-            font-size: 16px;
+      		font-size: 16px;
             line-height: 1.6;
             margin: 75px;
-            padding: 0px;
+      		padding: 0px;
         }
-
-        h3 {
-            text-align: right;
-            color: #DF6B14;
-            font-family: Lucida Sans Typewriter, Monospaced;
-            margin: 10px;
+      	h3 {
+          display: inline;
+      		text-align: left;
+      		color: #38E979;
+      		font-family: Georgia, serif;
+      		margin: 50px;
+          margin-left: 10px;
+      		}
+      		.box {
+      		margin: 50px;
+  			border: 1px solid black;
+  			padding: 10px;
+  			background-color: darkblue;
+      		text-align: center;
+          height: 60px;
+          width: 60px;
+         
         }
-        button{
-        text-align: center;
-        padding: 10px;
-      	width: 75px;
-        height: 75px;
-        margin: 10px;
+        button {
+          height: 55px;
+          width: 55px;
+          border: 0px;
+          padding: 10px;
+          background-color: lightblue;
+        }
     </style>
-  </head>
-  <body>
-    <a href="index.html"><button>Home</button></a>
-    <h3>06-27-2024</h3>
-    <h1>Design in detail</h1>
-    <p>Hello, it is me again. Today, I want to talk about building this website. It wasn't that much work, and I built it in about 5-6 hours. And for the posts,</p>
-    <p>This website, I actually got inspired to make it by a youtube video (Link to the <a href="https://www.youtube.com/watch?v=EXfFBEuCAr0&t=92s">video</a>). And it wasn't that hard, I used <a href="https://www.programiz.com/html/online-compiler/">programiz</a> to make the website (it is an online IDE). Then I asked <a href="https://copilot.microsoft.com/">microsoft copilot</a> (it's free) to make a basic template. I put that in the IDE then edited some text.</p>
-   <figure>
-		<img src="freecodecamp.png" alt="the login for freecodecamp" style="width:200px; float:right">
-          
-    </figure>
-		<p> In all fairness, I did have some background coding in html from <a href="https://www.freecodecamp.org/">freecodecamp</a> (which I reccomend taking their first course in their cirriculum which is responsive web design). But if i didn't know anything I would use <a href="https://copilot.microsoft.com/">copilot<a /> or just search it up.<p /> 
-    <p> Also it did take a bit of work to find the right font, but I found a really usefull <a href="https://www.cssfontstack.com/">font list </a> and that helped for finding them. I also used a color wheel (I don't remember which one, but just search up "hex color wheel" and the number with the # before it is the one you will use.<p />
-    <p>Finnaly, the moment you all are waiting for, how much did it cost? Well nothing acually. I didn't have to pay anything. All the tools I linked are free, and I hosted it using github pages. Eventually, I might buy a domain, but not yet. If you want to learn more about hosting with github pages, the video I linked earlier tells you how to make the entire website.</p>
-    <p> Edit: I found two problems with the programiz editor, first it kept crashing, and seccond the buttons woulden't work in it. So I did some searching, and found a <a href="playcode.io">new one</a>. This one works way better also it has a learn section. But the learn for HTML looks like the freecodecamp one.</p>
-  </body>
+</head>
+<body>
+    <h1>Chase Wright</h1>
+    <h2>Welcome to my website!</h2>
+  <p>My Name is Chase Wright. I <b>LOVE </b> electrical enginering and coding. I will talk about coding and electrical enginnering, an some other things on here. I know a lot of people think that coding is <b>Hard </b> but it isn't as hard as people expect.<p/> 
+    <div class="box">
+      <a href="postOne.html">
+        <button>Latest Post</button></a></div>
+  <h3>Posts</h3>
+  <ul>
+    <li> <a href="postOne.html">Design in detail<a/>
+  </ul>
+    
+</body>
 </html>
