@@ -1,77 +1,85 @@
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #21a179;
-            text-align: center;
-            padding: 20px;
-        }
-        h2 {
-            color: #f78e69;
-      		text-align: center;
-      		padding: 20px;
-      	}
-        p {
-            text-align: center;
-      		font-size: 16px;
-            line-height: 1.6;
-            margin: 75px;
-      		padding: 0px;
-        }
-      	h3 {
-          display: inline;
-      		text-align: right;
-      		color: #38E979;
-      		font-family: Georgia, serif;
-          margin-left: 75vw;
-          margin-right: auto;
-        }
-          .sticky {
-            width: 100vw;
-            height: 5vw;
-            background-color: black;
-            border: 1px solid black;
-      
-        }
-        
-          .menu {
-            display: inline;
-            background-color: #3066BE;
-            width: 5vw;
-            height: 2vw;
-            margin-left: 3vw;
-            margin-top: 1.25vw;
-            border: 0px;
-            border-radius: 10px;
-          }
-          .menuText {
-            color: #CAFFD0;
-            margin-left: auto;
-            margin-right: auto;
-          }
-         
-          .search {
-            display: inline;
-            background-color: #3066BE;
-            margin-top: 1.25vw;
-            margin-right: 3vw;
-            margin-left: 80vw;
-            height: 2vw;
-            width: 5.5vw;
-            border-radius: 10px;
-            border: 0px;
-          }
-          .searchText {
-            color: #CAFFD0;
-            margin-left: auto;
-            margin-right: auto;
-          }
-        .btn2{
-          text-align: center;
-          width: 7vw;
-          height: 3vw;
-          margin: 10px;
-        }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #21a179;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  color: #f78e69;
+  text-align: center;
+  padding: 20px;
+}
+p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 75px;
+  padding: 0px;
+}
+h3 {
+  display: inline;
+  text-align: right;
+  color: #38E979;
+  font-family: Georgia, serif;
+  margin-left: 75vw;
+  margin-right: auto;
+}
+.sticky {
+  position: sticky;
+  width: 100vw;
+  height: 5vw;
+  background-color: black;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu, .search {
+  background-color: #3066BE;
+  height: 2vw; 
+  width: 5vw; 
+  border: 0px; 
+  border-radius: 10px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  color: #CAFFD0;
+  padding: 1vw;
+  margin-right: auto;
+  margin-left: 4vw;
+}
+
+.page-indicator {
+  background-color: black;
+  color: white;
+  width: 12vw;
+  height: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right:32vw;
+  padding-left:32vw;
+}
+.page-indicatorH {
+  background-color: black;
+  color: black;
+  width: 12vw;
+  height: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right:32vw;
+  padding-left:32vw;
+}
+.btn2 {
+  text-align: center;
+  width: 7vw;
+  height: 3vw;
+  margin: 10px;
+}
